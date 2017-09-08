@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/item_carnews_firstImg_lv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bar_home1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_carnews_title_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_weight="3"
+            android:text="xxxxxxxxxxxxxx"/>
+        <TextView
+            android:id="@+id/item_carnews_source_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="14sp"
+            android:textColor="#CCCCCC"
+            android:gravity="center_vertical|left"
+            android:layout_gravity="bottom"
+            android:text="xxxxxxxxxxxxxx"/>
+    </LinearLayout>
+</LinearLayout>
